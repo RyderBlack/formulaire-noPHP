@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Princeton Application</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="logo_part">
+                <img class="logo" src="Princeton_logo.svg.png" alt="logo Princeton" />
+                <h1>Admission Application Form</h1>
+                <h2>For the Class of 2017</h2>
+            </div>
+
+            <div class="return_to">
+                <p>Please return to:</p>
+                <h2>Undergraduate Admission Application</h2>
+                <p>Princeton University <br> Box 591, Princeton, NJ 08542-0591 <br> Tel.(609) 258-3330 Fax(609) 258-0336 <br> E-Mail: paaf@princeton.edu</p>
+            </div>
+        </header>
+
+        <p class="section a">Student Information</p>
+
+        <form class="formulaire one" action="index.html" method="post">
+            <div class="first-section">
+                <p class="name">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" />
+                </p>
+
+                <p class="marital_status">
+                    <label for="marital status">Student Marital Status :</label> <br>
+                    <input type="checkbox" name="single" id="single" /> <label for="single">Single</label>
+                    <input type="checkbox" name="married" id="married" /> <label for="married">Married</label>
+                    <input type="checkbox" name="divorced" id="divorced" /> <label for="divorced">Divorced</label>
+                </p>
+            </div>
+
+            <div class="second-section">
+                <p class="social_security">
+                    <label for="social_security">U.S. Social Security #</label>
+                    <input type="text" name="number" maxlength="9" />
+                </p>
+                <p class="birth_date">
+                    <label for="birth_date">Date of Birth :</label>
+                    <input type="date" />
+                </p>
+            </div>
+            <div class="other_info">
+                <p>
+                    <label for="telephone">Telephone :</label>
+                    <input type="tel" />
+                </p>
+                <p>
+                    <label for="home address">Home Address :</label>
+                    <input type="" name="name" />
+                </p>
+                <p>
+                    <label for="email">E-Mail :</label>
+                    <input type="email" />
+                </p>
+            </div>
+        </form>
+
+        <p class="section b">Family Status</p>
+
+        <form class="formulaire two" action="index.html" method="post">
+            <p>
+                <label for="checkbox">Please check one (answer about natural or adoptive parents, stepparents, and legal guardians)</label>
+                <div class="family_status">
+                    <input type="radio" name="two parents" id="two parents" /> <label for="two parents"></label>I live with my two parents</label> <br>
+                    <input type="radio" name="divorced parents" id="divorced parents" /> <label for="divorced parents">My parents are divorced or separated and i live with one of them</label> <br>
+                    <input type="radio" name="self-supporting" id="self-supporting" /> <label for="self-supporting">I am self supporting adult over the age of 25</label>
+                </div>
+            </p>
+        </form>
+
+        <p class="section c">Family Information</p>
+
+        <form class="formulaire three" action="index.html" method="post">
+
+            <div class="family_information">
+
+                <div class="mother_container">
+                    <div class="mother_info">
+                        <input type="checkbox" name="mother" id="mother" /> <label for="mother"></label>Mother</label>
+                        <input type="checkbox" name="Stepmother" id="Stepmother" /> <label for="Stepmother">Stepmother</label>
+                        <input type="checkbox" name="Legal guardian" id="Legal guardian" /> <label for="Legal guardian">Legal guardian</label> <br>
+                    </div>
+                    <div class="name-email">
+                        <label for="name">Name :</label>
+                        <input type="text" name="name" /> <br>
+
+                        <label for="occupation">Occupation :</label>
+                        <input type="text" name="occupation" /> <br>
+
+                        <label for="email">E-Mail :</label>
+                        <input type="email" />
+                    </div>
+                </div>
+
+                <div class="father_container">
+                    <div class="father_info">
+                        <input type="checkbox" name="father" id="father" /> <label for="father"></label>Father</label>
+                        <input type="checkbox" name="Stepfather" id="Stepfather" /> <label for="Stepfather">Stepfather</label>
+                        <input type="checkbox" name="Legal guardian" id="Legal guardian" /> <label for="Legal guardian">Legal guardian</label> <br>
+                    </div>
+                    <div class="name-email">
+                        <label for="name">Name :</label>
+                        <input type="text" name="name" /> <br>
+
+                        <label for="occupation">Occupation :</label>
+                        <input type="text" name="occupation" /> <br>
+
+                        <label for="email">E-Mail :</label>
+                        <input type="email" />
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <footer>Princeton University - Copyright© IvyLeague - NJ, USA</footer>
+    </div>
+    <!-- <div class="checkboxWrapper">
+	<input type="checkbox" id="myCheckbox" checked/>
+	<label for="myCheckbox">
+		<svg class="checkmark" width="56" height="56">
+			<path d="m25,36 l14,-16"
+			      style="stroke-dasharray: 27px;"></path>
+			<path d="m25,36 l-8,-9"
+			      style="stroke-dasharray: 11px;"></path>
+		</svg>
+		<svg class="cross" width="56" height="56">
+			<path d="m28,28 l-8,-8"
+			      style="stroke-dasharray: 13px;"></path>
+			<path d="m28,28 l8,8"
+			      style="stroke-dasharray: 13px;"></path>
+			<path d="m28,28 l-8,8"
+			      style="stroke-dasharray: 13px;"></path>
+			<path d="m28,28 l8,-8"
+			      style="stroke-dasharray: 13px;"></path>
+		</svg>
+	</label>
+</div> -->
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+body {
+    background-color: rgba(130, 92, 68, 0.3);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.logo_part {
+    width: 49%;
+    border: 2px solid black;
+    margin-right: 1%;
+    padding-left: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 18px;
+    color: rgba(191, 93, 0, 0.7);
+}
+
+.return_to {
+    width: 49%;
+    border: 2px solid black;
+    text-align: right;
+    margin-left: 1%;
+    padding-right: 20px;
+}
+
+.section {
+    color: rgba(191, 95, 0, 0.9);
+    font-size: 22px;
+    border: 2px solid blue;
+}
+
+.first-section, .second-section, .family_information {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+}
+
+.name, .social_security {
+    width: 45%;
+    border: 2px solid red;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.marital_status, .birth_date {
+    width: 45%;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.mother_container, .father_container {
+    width: 100%;
+    border: 2px solid red;
+}
+
+.name-email {
+    border: 2px solid yellow;
+    padding: 10px;
+}
+
+.other_info {
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.mother_info, .father_info {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    border: 2px solid red;
+    position: absolute;
+    bottom: 0px;
+    left: 450px;;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+/*body {
+  background: #3bc0c3;
+}
+
+.checkboxWrapper {
+  width: 120px;
+  height: 65px;
+  position: relative;
+  margin: 20px auto;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  background: #fff;
+}
+
+.checkboxWrapper label {
+  position: absolute;
+  left: 60px;
+  top: 4px;
+  width: 56px;
+  height: 56px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  background: #b6c2c9;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.checkboxWrapper svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.checkboxWrapper svg path {
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-width: 4;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+  fill: none;
+  -webkit-transition: stroke-dashoffset 0.2s;
+  transition: stroke-dashoffset 0.2s;
+}
+
+.checkboxWrapper .checkmark path {
+  opacity: 0;
+}
+
+.checkboxWrapper .checkmark path:first-child{
+  stroke-dashoffset: 27px;
+}
+
+.checkboxWrapper .checkmark path:last-child{
+  stroke-dashoffset: 11px;
+}
+
+.checkboxWrapper .cross path {
+  opacity: 1;
+  stroke-dashoffset: 0px;
+}
+
+.checkboxWrapper input[type=checkbox] {
+  display: none;
+}
+
+.checkboxWrapper input[type=checkbox]:checked + label {
+  left: 4px;
+  background: #3bc0c3;
+}
+
+.checkboxWrapper input[type=checkbox]:checked + label .checkmark path {
+  opacity: 1;
+  stroke-dashoffset: 0px;
+}
+
+.checkboxWrapper input[type=checkbox]:checked + label .cross path {
+  opacity: 0;
+  stroke-dashoffset: 13px;
+}
+*/
